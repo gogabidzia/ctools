@@ -1,5 +1,4 @@
-var ContentToolsWrapper = function (htmlFileLocation) {
-    this.htmlFileLocation = htmlFileLocation;
+var ContentToolsWrapper = function () {
     this.editor = ContentTools.EditorApp.get();
     this.init = function () {
         this.editor.init('*[data-editable]', 'data-name');
